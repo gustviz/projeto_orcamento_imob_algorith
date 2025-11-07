@@ -3,7 +3,7 @@
 COMO USAR:
 ----------
 
-1. Execute o arquivo: orcamento_gui.py
+1. Execute o arquivo: orcamento_interface.py
 2. Uma janela vai abrir com o formulário
 3. Preencha os campos:
 
@@ -15,3 +15,4 @@ COMO USAR:
 4. Clique em "Calcular Orçamento"
 5. O resultado aparecerá na área de resultado
 6. Para gerar um arquivo CSV com 12 parcelas, clique em "Gerar CSV"
+
