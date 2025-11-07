@@ -15,7 +15,7 @@ DESCONTO_SEM_FILHOS = 0.05  # 5%
 
 def calcular_aluguel(tipo_imovel, quartos, garagem, tem_criancas):
     """
-    Calcula o valor do aluguel mensal baseado nas opções escolhidas.Retornao valor do aluguel mensal calculado.
+    Calcula o valor do aluguel mensal baseado nas opções escolhidas.Retorna o valor do aluguel mensal calculado.
     """
     # Valor base
     if tipo_imovel == 'Apartamento':
@@ -56,7 +56,7 @@ def calcular_aluguel(tipo_imovel, quartos, garagem, tem_criancas):
 
 def calcular_parcela_contrato(num_parcelas):
     """
-    Calcula o valor de cada parcela do contrato: número de parcelas (1 a 5). Retornao valor da parcela.
+    Calcula o valor de cada parcela do contrato: número de parcelas (1 a 5). Retorna o valor da parcela.
     """
     if num_parcelas < 1:
         num_parcelas = 1
@@ -88,3 +88,4 @@ def gerar_parcelas_mensais(valor_aluguel, num_meses=12, num_parcelas_contrato=1,
         })
     
     return parcelas
+
